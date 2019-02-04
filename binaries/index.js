@@ -5,7 +5,7 @@ const PLATFORM = process.platform
 const ARCH = process.arch
 const MODULES = process.versions.modules
 const NODE = process.versions.node
-const ELECTRON = process.versions.electron
+const ELECTRON = process.versions.electron || process.env.ELECTRON_VERSION
 
 var NAME
 if (ELECTRON) {
