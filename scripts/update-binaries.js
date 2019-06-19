@@ -8,7 +8,7 @@ const MODULES = [46, 47, 48, 50, 51, 53, 57, 59, 64, 67] // process.versions.mod
 const PLATFORMS = ['darwin', 'linux', 'win32'] // process.platform
 const ARCHS = ['ia32', 'x64', 'x86'] // process.arch
 
-const ELECTRON_MODULES = ["1.3", "1.6", "1.7", "1.8", "2.0", "3.0", "4.0"] // process.versions.modules
+const ELECTRON_MODULES = ["1.3", "1.6", "1.7", "1.8", "2.0", "3.0", "4.0", "5.0"] // process.versions.modules
 
 /**
  * getVersion directly from GitHub repo package.json
